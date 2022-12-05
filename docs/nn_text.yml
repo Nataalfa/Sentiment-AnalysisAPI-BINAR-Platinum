@@ -1,0 +1,17 @@
+tags:
+  - name: Neural Network(Text)
+summary: Sentiment Analysis using Neural Network
+description: Sentiment will be analyzed with Neural Network model based on the text  
+get:
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error

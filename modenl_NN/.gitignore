@@ -1,0 +1,3 @@
+!.gitignore
+modenl_NN\model.p
+*.pickle
